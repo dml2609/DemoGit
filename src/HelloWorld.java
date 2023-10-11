@@ -7,6 +7,9 @@ public class HelloWorld {
         String name= input.nextLine();
         System.out.print("How old are you? ");
         int age = input.nextInt();
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
         }
     }
 }
